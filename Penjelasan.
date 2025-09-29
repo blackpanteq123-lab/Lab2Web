@@ -1,0 +1,153 @@
+# Untuk pada gambar yang pertama ituh adalah hasil semua dari codinganyya 
+# Dan untuk codingannya seperti ini:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eksperimen CSS</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* 1. Eksperimen: ubah dan tambah properti */
+        header {
+            min-height: 80px;
+            border-bottom: 1px solid #77CCEF;
+            background-color: #e3f2fd;
+            text-align: center;
+            padding: 15px;
+        }
+        nav {
+            background: #20A759;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background: #0B6B3A;
+            border-radius: 5px;
+        }
+
+        /* 2. h1 umum vs h1 khusus di intro */
+        h1 {
+            font-size: 24px;
+            color: blue; /* semua h1 jadi biru */
+        }
+        #intro h1 {
+            color: red; /* tapi h1 di dalam intro jadi merah */
+        }
+
+        /* 3. Internal vs Inline (akan kalah kalau ada inline style) */
+        .judul-internal {
+            color: orange;
+            font-style: italic;
+        }
+
+        /* 4. Class vs ID */
+        .text-paragraf {
+            color: blue;
+            font-size: 18px;
+        }
+        #paragraf-1 {
+            color: red; /* ID lebih kuat dibanding class */
+        }
+
+        /* Tambahan eksperimen */
+        .button {
+            padding: 10px 15px;
+            background: #bebcbd;
+            color: #fff;
+            display: inline-block;
+            margin: 10px;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        .btn-primary {
+            background: #E42A42;
+        }
+        .button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Belajar CSS</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">CSS Dasar</a>
+        <a href="#">CSS Eksternal</a>
+        <a href="#">HTML Dasar</a>
+    </nav>
+
+    <!-- 2. Perbedaan h1 umum vs #intro h1 -->
+    <div id="intro">
+        <h1>Judul di Dalam Intro</h1>
+        <p>Selamat Datang</p>
+    </div>
+
+    <!-- 3. Inline vs Internal -->
+    <h1 class="judul-internal" style="color: green;">Judul Dengan Inline CSS</h1>
+
+    <!-- 4. ID vs Class -->
+    <p id="paragraf-1" class="text-paragraf">
+         Kami sedang belajar HTML dan CSS dasar, pada mata kuliah 
+            <b>Pemrograman Web</b> di <i>Universitas Pelita Bangsa</i>. 
+            Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana 
+            dalam rangka mengenal tag-tag dasar HTML dan CSS..
+    </p>
+
+    <!-- Tombol eksperimen -->
+    <a class="button btn-primary" href="#intro">Informasi Selengkapnya</a>
+</body>
+</html>
+#Dan untuk style eksternal cssnya
+/* CSS Eksternal */
+nav {
+    background: #20A759;
+    color: #fff;
+    padding: 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav .active,
+nav a:hover {
+    background: #0B6B3A;
+}
+
+/* ID Selector */
+#intro {
+    background: #418fb1;
+    border: 1px solid #099249;
+    min-height: 100px;
+    padding: 10px;
+}
+#intro h1 {
+    text-align: left;
+    border: 0;
+    color: #fff;
+}
+
+/* Class Selector */
+.button {
+    padding: 15px 20px;
+    background: #bebcbd;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+.btn-primary {
+    background: #E42A42;
+}
+
