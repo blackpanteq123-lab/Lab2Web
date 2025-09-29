@@ -1,4 +1,5 @@
 # Lab2Web
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/75b3fc6f-8e1f-4e9e-803e-d6d812a158a5" />
-<img width="1238" height="968" alt="image" src="https://github.com/user-attachments/assets/99cdc942-c1db-4748-b10d-a9844e70a4a9" />
-<img width="705" height="958" alt="image" src="https://github.com/user-attachments/assets/3d30b57a-5d67-4d62-9007-acdc2c84ee6a" />
+<img width="1913" height="1080" alt="image" src="https://github.com/user-attachments/assets/546bc47b-2bb3-485a-a92c-07d07c23a936" />
+<img width="903" height="907" alt="image" src="https://github.com/user-attachments/assets/8de0f8cf-7678-4b24-8ec8-da526bd89f77" />
+<img width="705" height="708" alt="image" src="https://github.com/user-attachments/assets/33c16a50-7fbf-40a5-b17f-f773945e3329" />
+<img width="1030" height="885" alt="image" src="https://github.com/user-attachments/assets/2fdcb47b-d541-4edf-b612-51b0a3950774" />
